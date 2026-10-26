@@ -1,0 +1,5 @@
+.sp-switch{
+}
+.sp-switch > span {
+ margin-left: -.3rem;
+}

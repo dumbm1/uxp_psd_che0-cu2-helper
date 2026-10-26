@@ -1,0 +1,8 @@
+.sp-radio {
+ margin-left: .17rem;
+ margin-right: .7rem;
+}
+
+.sp-radio > span {
+ margin-left: -.3rem;
+}

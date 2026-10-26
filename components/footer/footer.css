@@ -1,0 +1,8 @@
+.user_footer {
+ display: flex !important;
+ flex-direction: column !important;
+}
+
+footer.user_footer > sp-button:not(:last-child) {
+ margin-bottom: .2rem !important;
+}

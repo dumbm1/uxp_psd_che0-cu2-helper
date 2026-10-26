@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link rel="stylesheet" href="assets/css/main.css">
+ <link rel="stylesheet" href="components/footer/footer.css">
+ <link rel="stylesheet" href="components/button/sp-button/sp-button.css">
+ <link rel="stylesheet" href="components/checkbox/sp-checkbox.css">
+ <link rel="stylesheet" href="components/radio/sp-radio.css">
+ <link rel="stylesheet" href="components/switch/sp-switch.css">
+</head>
+
+<body>
+
+ <div id="section_cu">
+  <sp-heading size="s">Затянуть в 2%</sp-heading>
+  <sp-radio-group>
+   <sp-label style="min-width: 3rem">кроме</sp-label>
+   <sp-radio emphasized size="s" class="sp-radio" value="C"><span>C</span></sp-radio>
+   <sp-radio emphasized size="s" class="sp-radio" value="M"><span>M</span></sp-radio>
+   <sp-radio emphasized size="s" class="sp-radio" value="Y"><span>Y</span></sp-radio>
+   <sp-radio emphasized size="s" class="sp-radio" value="K"><span>K</span></sp-radio>
+  </sp-radio-group>
+  <sp-field-group>
+   <sp-label style="min-width: 3rem">только</sp-label>
+   <sp-checkbox emphasized size="s" class="sp-checkbox" value="C"><span>C</span></sp-checkbox>
+   <sp-checkbox emphasized size="s" class="sp-checkbox" value="M"><span>M</span></sp-checkbox>
+   <sp-checkbox emphasized size="s" class="sp-checkbox" value="Y"><span>Y</span></sp-checkbox>
+   <sp-checkbox emphasized size="s" class="sp-checkbox" value="K"><span>K</span></sp-checkbox>
+  </sp-field-group>
+  <div>
+   <sp-switch class="sp-switch" size="s" emphasized checked><span>удалить маску</span></sp-switch>
+  </div>
+  <div>
+   <sp-switch class="sp-switch" size="s" emphasized checked><span>привязать к слою</span></sp-switch>
+  </div>
+  <div>
+   <sp-button id="btnAddCu" size="s">добавить cu</sp-button>
+  </div>
+ </div>
+
+ <div id="section_che">
+  <sp-heading size="s">Убрать в 0% каналы</sp-heading>
+  <sp-radio-group>
+   <sp-label style="min-width: 3rem" size="m">кроме</sp-label>
+   <sp-radio emphasized size="s" class="sp-radio" value="C"><span>C</span></sp-radio>
+   <sp-radio emphasized size="s" class="sp-radio" value="M"><span>M</span></sp-radio>
+   <sp-radio emphasized size="s" class="sp-radio" value="Y"><span>Y</span></sp-radio>
+   <sp-radio emphasized size="s" class="sp-radio" value="K"><span>K</span></sp-radio>
+  </sp-radio-group>
+  <sp-field-group>
+   <sp-label style="min-width: 3rem">только</sp-label>
+   <sp-checkbox emphasized size="s" class="sp-checkbox" value="C"><span>C</span></sp-checkbox>
+   <sp-checkbox emphasized size="s" class="sp-checkbox" value="M"><span>M</span></sp-checkbox>
+   <sp-checkbox emphasized size="s" class="sp-checkbox" value="Y"><span>Y</span></sp-checkbox>
+   <sp-checkbox emphasized size="s" class="sp-checkbox" value="K"><span>K</span></sp-checkbox>
+  </sp-field-group>
+  <div>
+   <sp-switch class="sp-switch" size="s" emphasized checked><span>удалить маску</span></sp-switch>
+  </div>
+  <div>
+   <sp-switch class="sp-switch" size="s" emphasized checked><span>привязать к слою</span></sp-switch>
+  </div>
+  <div>
+   <sp-button id="btnAddChe" size="s">добавить cha</sp-button>
+  </div>
+ </div>
+
+
+
+
+<script src="assets/js/addCurve.js"></script>
+
+</body>
+</html>
