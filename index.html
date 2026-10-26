@@ -16,20 +16,20 @@
 
  <div id="section_cu">
   <sp-heading size="s">Затянуть в 2%</sp-heading>
-  <sp-radio-group>
+  <sp-radio-group id="radio_group_cu">
    <sp-label style="min-width: 3rem">кроме</sp-label>
    <sp-radio emphasized size="s" class="sp-radio" value="C"><span>C</span></sp-radio>
    <sp-radio emphasized size="s" class="sp-radio" value="M"><span>M</span></sp-radio>
    <sp-radio emphasized size="s" class="sp-radio" value="Y"><span>Y</span></sp-radio>
    <sp-radio emphasized size="s" class="sp-radio" value="K"><span>K</span></sp-radio>
   </sp-radio-group>
-  <sp-field-group>
+  <div class="checkbox-group" id="chbox_group_cu">
    <sp-label style="min-width: 3rem">только</sp-label>
    <sp-checkbox emphasized size="s" class="sp-checkbox" value="C"><span>C</span></sp-checkbox>
    <sp-checkbox emphasized size="s" class="sp-checkbox" value="M"><span>M</span></sp-checkbox>
    <sp-checkbox emphasized size="s" class="sp-checkbox" value="Y"><span>Y</span></sp-checkbox>
    <sp-checkbox emphasized size="s" class="sp-checkbox" value="K"><span>K</span></sp-checkbox>
-  </sp-field-group>
+  </div>
   <div>
    <sp-switch class="sp-switch" size="s" emphasized checked><span>удалить маску</span></sp-switch>
   </div>
@@ -72,6 +72,8 @@
 
 
 <script src="assets/js/addCurve.js"></script>
+<script src="assets/js/radio-checkbox-handler.js"></script>
+
 
 </body>
 </html>
