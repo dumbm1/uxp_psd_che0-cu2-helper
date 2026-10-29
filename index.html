@@ -19,23 +19,23 @@
   <sp-heading size="s">Затянуть в 2%</sp-heading>
   <sp-radio-group id="radio_group_cu">
    <sp-label style="min-width: 3rem">кроме</sp-label>
-   <sp-radio  size="s" class="sp-radio" value="C"><span>C</span></sp-radio>
-   <sp-radio  size="s" class="sp-radio" value="M"><span>M</span></sp-radio>
-   <sp-radio  size="s" class="sp-radio" value="Y"><span>Y</span></sp-radio>
-   <sp-radio  size="s" class="sp-radio" value="K"><span>K</span></sp-radio>
+   <sp-radio  size="s" class="sp-radio" value="cyan"><span>C</span></sp-radio>
+   <sp-radio  size="s" class="sp-radio" value="magenta"><span>M</span></sp-radio>
+   <sp-radio  size="s" class="sp-radio" value="yellow"><span>Y</span></sp-radio>
+   <sp-radio  size="s" class="sp-radio" value="black"><span>K</span></sp-radio>
   </sp-radio-group>
   <div class="checkbox-group" id="chbox_group_cu">
    <sp-label style="min-width: 3rem">только</sp-label>
-   <sp-checkbox  size="s" class="sp-checkbox" value="C"><span>C</span></sp-checkbox>
-   <sp-checkbox  size="s" class="sp-checkbox" value="M"><span>M</span></sp-checkbox>
-   <sp-checkbox  size="s" class="sp-checkbox" value="Y"><span>Y</span></sp-checkbox>
-   <sp-checkbox  size="s" class="sp-checkbox" value="K"><span>K</span></sp-checkbox>
+   <sp-checkbox  size="s" class="sp-checkbox" value="cyan"><span>C</span></sp-checkbox>
+   <sp-checkbox  size="s" class="sp-checkbox" value="magenta"><span>M</span></sp-checkbox>
+   <sp-checkbox  size="s" class="sp-checkbox" value="yellow"><span>Y</span></sp-checkbox>
+   <sp-checkbox  size="s" class="sp-checkbox" value="black"><span>K</span></sp-checkbox>
   </div>
   <div>
-   <sp-switch class="sp-switch" size="s"  checked><span>удалить маску</span></sp-switch>
+   <sp-switch id="rm_mask_cu" class="sp-switch" size="s"  checked><span>удалить маску</span></sp-switch>
   </div>
   <div>
-   <sp-switch class="sp-switch" size="s"  checked><span>привязать к слою</span></sp-switch>
+   <sp-switch id="link_to_lay_cu" class="sp-switch" size="s"  checked><span>привязать к слою</span></sp-switch>
   </div>
   <div>
    <sp-button id="btnAddCu" variant="primary" size="s">добавить cu</sp-button>
@@ -46,17 +46,17 @@
   <sp-heading size="s">Убрать в 0% каналы</sp-heading>
   <sp-radio-group>
    <sp-label style="min-width: 3rem" size="m">кроме</sp-label>
-   <sp-radio  size="s" class="sp-radio" value="C"><span>C</span></sp-radio>
-   <sp-radio  size="s" class="sp-radio" value="M"><span>M</span></sp-radio>
-   <sp-radio  size="s" class="sp-radio" value="Y"><span>Y</span></sp-radio>
-   <sp-radio  size="s" class="sp-radio" value="K"><span>K</span></sp-radio>
+   <sp-radio  size="s" class="sp-radio" value="cyan"><span>C</span></sp-radio>
+   <sp-radio  size="s" class="sp-radio" value="magenta"><span>M</span></sp-radio>
+   <sp-radio  size="s" class="sp-radio" value="yellow"><span>Y</span></sp-radio>
+   <sp-radio  size="s" class="sp-radio" value="black"><span>K</span></sp-radio>
   </sp-radio-group>
   <sp-field-group>
    <sp-label style="min-width: 3rem">только</sp-label>
-   <sp-checkbox  size="s" class="sp-checkbox" value="C"><span>C</span></sp-checkbox>
-   <sp-checkbox  size="s" class="sp-checkbox" value="M"><span>M</span></sp-checkbox>
-   <sp-checkbox  size="s" class="sp-checkbox" value="Y"><span>Y</span></sp-checkbox>
-   <sp-checkbox  size="s" class="sp-checkbox" value="K"><span>K</span></sp-checkbox>
+   <sp-checkbox  size="s" class="sp-checkbox" value="cyen"><span>C</span></sp-checkbox>
+   <sp-checkbox  size="s" class="sp-checkbox" value="magenta"><span>M</span></sp-checkbox>
+   <sp-checkbox  size="s" class="sp-checkbox" value="yellow"><span>Y</span></sp-checkbox>
+   <sp-checkbox  size="s" class="sp-checkbox" value="black"><span>K</span></sp-checkbox>
   </sp-field-group>
   <div>
    <sp-switch class="sp-switch" size="s"  checked><span>удалить маску</span></sp-switch>
@@ -72,7 +72,8 @@
 
 
 
-<script src="assets/js/addCurve.js"></script>
+<!--<script src="assets/js/addCurve.js"></script>-->
+<script src="assets/js/cu.js"></script>
 <script src="assets/js/radioCheckboxHandler.js"></script>
 </body>
 

@@ -154,3 +154,5 @@ async function f() {
  );
 
 }
+
+document.getElementById('btnAddCu').addEventListener('click', f);
