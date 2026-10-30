@@ -1,7 +1,7 @@
 {
  "id": "uxp_psd_che0-cu2-helper",
  "name": "uxp_psd_che0-cu2-helper",
- "version": "0.0.5",
+ "version": "0.0.6",
  "main": "index.html",
  "host": {
   "app": "PS",

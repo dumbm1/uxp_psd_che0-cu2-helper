@@ -17,12 +17,12 @@ async function f2() {
  };
  let chaName = 'cha0_';
  const chaChboxes = document.getElementById('section_cha').querySelectorAll('sp-checkbox');
- const chaValues = [100.0, 100.0, 100.0, 100.0];
+ const chaValues = [0.0, 0.0, 0.0, 0.0];
 
  for (let i = 0; i < chaChboxes.length; i++) {
   let chaChbox = chaChboxes[i];
   if (!chaChbox.checked) continue;
-  chaValues[i] = 0.0;
+  chaValues[i] = 100.0;
  }
 
  for (let i = 0; i < chaChboxes.length; i++) {
