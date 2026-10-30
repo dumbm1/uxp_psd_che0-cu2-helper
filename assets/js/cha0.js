@@ -27,7 +27,7 @@ async function f2() {
 
  for (let i = 0; i < chaChboxes.length; i++) {
   let chaChbox = chaChboxes[i];
-  if (!chaChbox.checked) continue;
+  if (chaChbox.checked) continue;
   if (chaChbox.value === 'black') {
    chaName += 'K';
   } else {
@@ -141,7 +141,8 @@ async function f2() {
   },
  ];
 
- if (document.getElementById('link_to_lay_cha').checked) commands.push(linkCha);
+ if (document.getElementById('link_to_lay_cha').checked && !hasLinkedLay()) commands.push(linkCha);
+
  if (document.getElementById('rm_mask_cha').checked) commands.push(rmChaMask);
 
  async function cha0(executionContext, descriptor) {

@@ -121,7 +121,7 @@ async function f() {
   },
  ];
 
- if (document.getElementById('link_to_lay_cu').checked) commands.push(linkCu);
+ if (document.getElementById('link_to_lay_cu').checked&& !hasLinkedLay()) commands.push(linkCu);
  if (document.getElementById('rm_mask_cu').checked)  commands.push(rmMask);
 
  async function cu(executionContext, descriptor) {
